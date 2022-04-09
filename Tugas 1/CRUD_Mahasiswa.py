@@ -1,3 +1,10 @@
+'''
+    Muhamad Zein Algifari
+    200511125
+    R3
+    CRUD Postgresql
+'''
+
 import psycopg2 as db
 import os
 

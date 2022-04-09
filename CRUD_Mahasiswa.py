@@ -1,4 +1,3 @@
-from turtle import update
 import psycopg2 as db
 import os
 

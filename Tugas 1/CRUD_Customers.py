@@ -9,9 +9,9 @@ import psycopg2
 import os
 
 DB_NAME = "kampus"
-DB_USER = "postgres"
-DB_PASS = "zein"
-DB_HOST = "123"
+DB_USER = "zein"
+DB_PASS = "123"
+DB_HOST = "localhost"
 DB_PORT = "5432"
 try:
     db = psycopg2.connect(database=DB_NAME, user=DB_USER,
